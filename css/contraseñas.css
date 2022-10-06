@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main{
+    display: grid;
+    place-items: center;
+    place-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 3rem;
+    border-radius: 0.6rem;
+}
+.main h1{
+    font-weight: 600;
+    color: #038168;
+}
+.container .main h2{
+    color: #038168;
+}
+
+.main .texto{
+    text-align: center;
+}
+
+.main .email{
+    width: 100%;
+}
+
+.main a{
+    text-decoration: none;
+    font-weight: 600;
+    color:#666;
+    font-size: 1.125rem;    
+}
+.main .btn-recoverpass{
+    width: 100%;
+    font-weight: 600;
+    background-color: #038168;
+    color: white;
+    border: none;
+    margin-top: 0.5rem;
+    border-radius: 0.6rem;
+    padding: 0.4rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

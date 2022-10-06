@@ -1,0 +1,79 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+.container-newLogin{
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    ". . ."
+    ". main ."
+    ". main ."
+    ". main ."
+    ". main."
+    ". . .";
+}
+
+.main-newLogin{
+    grid-area: main;
+    display: flex;
+    margin: 0rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 0.3rem;
+}
+
+.img-newLogin{
+    background: url(../img/utdisnta.jpg) no-repeat left fixed;
+    background-size: cover;
+    width: 50%;
+    color: white;
+    border-radius: 0.3rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.formulario-newLogin{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.25rem;
+}
+
+.formulario-newLogin a{
+    text-decoration: none;
+    font-weight: 600;
+    color:#666;
+    font-size: 1.125rem;
+}
+
+.formulario-newLogin h1{
+    color: #038168;
+}
+
+.formulario-newLogin label{
+    color: #02a282;
+    font-weight: 600;
+}
+
+
+.formulario-newLogin .checkbox-login{
+    background-color: #02a282;
+}
+
+.formulario-newLogin .btn-login{
+    background-color: #038168;
+    color: white;
+    font-weight: 600;
+    font-size: 1.125rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
